@@ -1,0 +1,35 @@
+.fruitTable td{
+    padding: 10px 10px 10px 10px;
+}
+.fruitapple {
+    width: 100px;
+    height: 100px;
+    background-image: url("apple.png");
+    background-size: 100px 100px;
+    color: orange;
+
+}
+.fruitbanana {
+    width: 100px;
+    height: 100px;
+    background-image: url("bananas.png");
+    background-size: 100px 100px;
+    color: orange;
+
+}
+.fruitpear {
+    width: 100px;
+    height: 100px;
+    background-image: url("pear.png");
+    background-size: 100px 100px;
+    color: orange;
+
+}
+.fruitorange {
+    width: 100px;
+    height: 100px;
+    background-image: url("orange.png");
+    background-size: 100px 100px;
+    color: orange;
+
+}

@@ -1,9 +1,12 @@
 .fruitTable td{
     padding: 10px 10px 10px 10px;
 }
+.fruit-bin{
+    display: inline-block;
+}
 .fruitapple {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-image: url("apple.png");
     background-size: 100px 100px;
     color: orange;
@@ -32,4 +35,7 @@
     background-size: 100px 100px;
     color: orange;
 
+}
+.sell{
+    
 }

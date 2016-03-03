@@ -4,38 +4,41 @@
 .fruit-bin{
     display: inline-block;
 }
+.fruit{
+    width: 150px;
+    height: 150px;
+    background-size: 150px 150px;
+    color: grey;
+
+}
+.fruit p{
+    background-color: black;
+    color: white;
+}
 .fruitapple {
-    width: 200px;
-    height: 200px;
+
     background-image: url("apple.png");
-    background-size: 100px 100px;
-    color: orange;
+
 
 }
 .fruitbanana {
-    width: 100px;
-    height: 100px;
+
     background-image: url("bananas.png");
-    background-size: 100px 100px;
-    color: orange;
+
 
 }
 .fruitpear {
-    width: 100px;
-    height: 100px;
+
     background-image: url("pear.png");
-    background-size: 100px 100px;
-    color: orange;
+
 
 }
 .fruitorange {
-    width: 100px;
-    height: 100px;
+
     background-image: url("orange.png");
-    background-size: 100px 100px;
-    color: orange;
+
 
 }
 .sell{
-    
+
 }

@@ -157,7 +157,7 @@ function displayFruit(){
         fruit = fruitArray[i];
 
 
-        $('.fruit-bin').append('<div class="fruit"></div>');
+        $('.fruit-bin').append('<div class=" col-md-1 fruit fruit' + fruit.fruitType + '"></div>');
         $el = $('.fruit-bin').children().last();
         //console.log("preparing to append data key to fruitIndex of:", i);
 
@@ -194,8 +194,8 @@ function gameOver(){
 function createListener(){
     // console.log("in function create listner");
     //
-    $('.fruit-bin').off().on('click', '.sell', sellFunction);
-    $('.fruit-bin').off().on('click', '.buy', buyFunction);
+    // $('.fruit-bin').off().on('click', '.sell', sellFunction);
+    // $('.fruit-bin').off().on('click', '.buy', buyFunction);
 
 
     $('.fruit-bin').on('click', '.sell', sellFunction);

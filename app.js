@@ -6,6 +6,8 @@ $(document).ready(function(){
     //call initialize fruits
     //set interval 15000
     initializeFruits();
+    createListener();
+
     timer = window.setInterval(updateFruit, 15000);
     displayFruit();
 });
@@ -172,7 +174,7 @@ function displayFruit(){
         $el.data("fruitIndex", i);
 
     }
-    createListener();
+    // createListener();
 
 
 };
@@ -192,7 +194,7 @@ function gameOver(){
 
 
 function createListener(){
-    // console.log("in function create listner");
+    console.log("in function create listner");
     //
     // $('.fruit-bin').off().on('click', '.sell', sellFunction);
     // $('.fruit-bin').off().on('click', '.buy', buyFunction);

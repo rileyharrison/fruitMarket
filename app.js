@@ -6,7 +6,7 @@ $(document).ready(function(){
     //call initialize fruits
     //set interval 15000
     initializeFruits();
-    timer = window.setInterval(updateFruit, 4000);
+    timer = window.setInterval(updateFruit, 15000);
     displayFruit();
 });
 

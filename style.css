@@ -1,3 +1,13 @@
+h1 {
+    text-align: center;
+}
+.splash {
+    background-image: url("fruitback.jpg");
+    color: white;
+}
+
+
+
 .fruitTable td{
     padding: 10px 10px 10px 10px;
 }

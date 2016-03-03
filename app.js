@@ -9,6 +9,7 @@ $(document).ready(function(){
     createListener();
 
     timer = window.setInterval(updateFruit, 15000);
+    var countDown = window.setInterval(updateTime, 1000);
     displayFruit();
 });
 
@@ -18,6 +19,7 @@ var timer;
 var timerCounter = 0;
 var fruitArray = [];
 var userMoney = 10000;
+var timeLeft = 300;
 
 FruitObject = function(fruitType, price, totalSpent, totalBought, showCount, showAvg, onHand){
 
@@ -32,6 +34,13 @@ FruitObject = function(fruitType, price, totalSpent, totalBought, showCount, sho
     this.onHand = onHand;
     fruitArray.push(this);
 };
+
+function updateTime(){
+    timeLeft--;
+    $('#showTimer').text(timeLeft);
+
+
+}
 
 
 function buyFunction (){
@@ -91,7 +100,7 @@ function updateStats(){
     }
 
     console.log("user money in update", userMoney);
-    $("#showCash").text(userMoney);
+    $("#showCash").text('$'+(userMoney/100).toFixed(2));
 
 };
 
